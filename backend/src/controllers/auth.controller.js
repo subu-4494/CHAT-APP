@@ -111,8 +111,9 @@ export const updateProfile = async(req,res) => {
     }
 };
 
-export const checkAuth = (req, res) => {
+export const checkAuth = async (req, res) => {
     try {
+        const response = await axios.get('/api/auth/check', { withCredentials: true });
         res.status(200).json(req.user);
     } catch (error) {
         console.log("Error in checkAuth controller", error.message);
