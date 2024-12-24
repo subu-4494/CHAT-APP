@@ -11,7 +11,7 @@ import messageRoutes from "./routes/message.route.js";
 dotenv.config();
 const app = express();
 
-const PORT = process.env.PORT||5173;
+const PORT = process.env.PORT||5174;
 
 app.use(express.json());
 app.use(cookieParser());
