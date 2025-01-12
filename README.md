@@ -1,6 +1,6 @@
-# ✨ Full Stack Realtime Chat App ✨
+# ✨  Realtime Chat App ✨
 
-Here you can vissit my website : "https://baat-chit-hrjw.onrender.com/"
+Deploy link : "https://baat-chit-hrjw.onrender.com/"
 
 Highlights:
 
